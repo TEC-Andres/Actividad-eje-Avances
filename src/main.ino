@@ -20,7 +20,6 @@ void loop() {
 
   Serial.println("Frame " + String(frame));
   delay(160); // 6.25 FPS
-  increase_frame(5);
 }
 
 void title_screen() {
@@ -28,7 +27,7 @@ void title_screen() {
   lcd.write(1);
   lcd.print(" Duol-ino ");
   lcd.write(1);
-  animation_type_1();
+  animation_type_1(charArrays, frame);
 }
 
 void button_initial() {
@@ -52,10 +51,7 @@ void increase_frame(int limit) {
   }
 }
 
-void animation_type_1() {
-  for (int i = 1; i <= 5; i++) {
-    String imageName = "c_fuego_" + String(i);
-    lcd.createChar(1, charArrays[i]);
-    delay(160);
-  }
+void animation_type_1(byte* ANIMACION[], int currentFrame) {
+  // Use the currentFrame value to determine which animation to display
+  lcd.createChar(1, ANIMACION[currentFrame]);
 }
