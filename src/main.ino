@@ -20,6 +20,7 @@ void loop() {
 
   Serial.println("Frame " + String(frame));
   delay(160); // 6.25 FPS
+  animar(charArrays, frame, 5);
 }
 
 void title_screen() {
@@ -27,7 +28,7 @@ void title_screen() {
   lcd.write(1);
   lcd.print(" Duol-ino ");
   lcd.write(1);
-  animation_type_1(charArrays, frame);
+  // animation_type_1 is now called in the loop function
 }
 
 void button_initial() {
@@ -44,14 +45,13 @@ void button_texture() {
   lcd.createChar(4, c_boton_inicial_3);
 }
 
-void increase_frame(int limit) {
-  frame++;
-  if (frame > limit) {
-    frame = 1;
+void animar(byte* ANIMACION[], int &currentFrame, int LIMITE) {
+  currentFrame++;
+  if (currentFrame > LIMITE) {
+    currentFrame = 1;
   }
-}
 
-void animation_type_1(byte* ANIMACION[], int currentFrame) {
-  // Use the currentFrame value to determine which animation to display
-  lcd.createChar(1, ANIMACION[currentFrame]);
+  for (int i = 1; i <= LIMITE; i++) {
+    lcd.createChar(1, ANIMACION[currentFrame]);
+  }
 }
