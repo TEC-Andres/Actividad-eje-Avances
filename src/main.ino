@@ -4,7 +4,7 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-byte* charArrays[] = {nullptr, c_fuego_1, c_fuego_2, c_fuego_3, c_fuego_4, c_fuego_5};
+byte* a_fuego[] = {nullptr, c_fuego_1, c_fuego_2, c_fuego_3, c_fuego_4, c_fuego_5};
 
 int frame = 1;
 
@@ -20,7 +20,7 @@ void loop() {
 
   Serial.println("Frame " + String(frame));
   delay(160); // 6.25 FPS
-  animar(charArrays, frame, 5);
+  animar(a_fuego, frame, 5);
 }
 
 void title_screen() {
