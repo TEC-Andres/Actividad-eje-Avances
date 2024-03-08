@@ -1,8 +1,12 @@
-#ifndef TEXTURAS_H
-#define TEXTURAS_H
+#ifndef APP3_H
+#define APP3_H
 
 #include <Arduino.h>
 
+/* Animaciones */
+extern byte* a_fuego[];
+
+/* Caracteres especiales */
 extern byte c_fuego_1[8];
 extern byte c_fuego_2[8];
 extern byte c_fuego_3[8];
