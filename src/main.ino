@@ -4,14 +4,14 @@
 #
 #       Copyright (C) Tecnologico de Monterrey
 #
-#       Archivo: main.ino
+#       Archivo: eje-main.ino
 #
 #       Datos del programa (Sin contar la consola de debugging)
-#       Almacenamiento: 6,754 (20%) / 32,256 bytes
-#       RAM (Globales): 508 (24%) / 2,048 bytes
+#       Almacenamiento: 7198 (22%) / 32,256 bytes
+#       RAM (Globales): 612 (29%) / 2,048 bytes
 #
 #       Creado:                   08/01/2024
-#       Última Modificación:      25/03/2024
+#       Última Modificación:      04/04/2024
 */ 
 
 /* Librerias de componentes */
@@ -92,4 +92,3 @@ void loop()
   /* Debugging */
   //Serial.println("IZQ: " + String(B_IZQ_R) + "\nARR: " + String(B_ARR_R) + "\nABJ: " + String(B_ABJ_R) + "\nDER: " + String(B_DER_R) + "\nSEL: " + String(B_SEL_R) + "\nSHF: " + String(B_SHF_R) + "\nVOL: " + String(B_VOL_R) + "\nTMP: " + String(gradosC) + "C\nPHS: " + String(B_PHS_R) + "\n");
 }
-
