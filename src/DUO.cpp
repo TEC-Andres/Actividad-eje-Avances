@@ -1,9 +1,25 @@
+/*
+#       Sesión 30: Actividad eje
+#       Andrés Rodríguez Cantú ─ Daniela Mendez Rivas
+#
+#       Copyright (C) Tecnologico de Monterrey
+#
+#       Archivo: DUO.cpp
+#
+#       Datos del programa (Sin contar la consola de debugging)
+#       Almacenamiento: 7198 (22%) / 32,256 bytes
+#       RAM (Globales): 612 (29%) / 2,048 bytes
+#
+#       Creado:                   04/04/2024
+#       Última Modificación:      04/04/2024
+*/
+
 #include "DUO.h"
 #include <Arduino.h>
-#include <LiquidCrystal_I2C.h> // Include LiquidCrystal_I2C header file
+#include <LiquidCrystal_I2C.h>
 
-/* Declare the LiquidCrystal_I2C object */
-extern LiquidCrystal_I2C lcd; // Declaration, definition will be in main.ino
+/* Cosas que tengo que poner si no, no sirve el código */
+extern LiquidCrystal_I2C lcd;
 
 /* Paquetes */
 byte* p_DUO_OS[] = {nullptr, c_DUO_OS_1, c_DUO_OS_2, c_DUO_OS_3, c_DUO_OS_4, c_DUO_OS_5, c_DUO_OS_6, c_DUO_OS_7, c_DUO_OS_8};
