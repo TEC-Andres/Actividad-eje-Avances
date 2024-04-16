@@ -37,7 +37,7 @@ void OS_DUO::crearCaracter(byte* CARACTER[], uint8_t INICIO, uint8_t LIMITE, uin
   }
 }
 ```
-La razón de esta función, es para replazar de manera sencilla de la memoria del LCD los caracteres especiales, esto debido a las limitantes del componente (el componente solo deja tener 8 caracteres especiales en memoria en cualquier momento deterimando, sin embargo, esto no significa que no podamos reemplazar la memoria de uno de los caracteres especiales por otra.) 
+La razón de esta función, es para replazar de manera sencilla de la memoria del LCD los caracteres especiales, esto debido a las limitantes del componente (el componente solo deja tener 8 caracteres especiales en memoria en cualquier momento deterimando, sin embargo, esto no nos impide que podamos reemplazar la memoria de uno de los caracteres especiales por otra memoria que esté guardada en el arduino.) 
 
 ---
 Creado por Andrés Rodríguez Cantú & Daniela Mendez Rivas<br /> Todos los derechos reservados al Tecnológico de Monterrey
