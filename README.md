@@ -5,7 +5,6 @@ Este repositorio es para la actividad eje de Daniela Mendez Rivas y Andrés Rodr
 ### Componentes
 
 | Nombre   || Componente    | Cantidad |
-| -------- | ------- | ------- |
 U1 |	1 |	Arduino Uno R3
 U2 |	1	| PCF8574-based, 39 (0x27) LCD 16 x 2 (I2C)
 Rpot1	| 1	| 250 kΩ Potentiometer
