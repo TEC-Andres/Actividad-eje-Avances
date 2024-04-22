@@ -4,7 +4,7 @@
 #
 #       Copyright (C) Tecnologico de Monterrey
 #
-#       Archivo: OS.h
+#       Archivo: DUO.h
 #
 #       Datos del programa (Sin contar la consola de debugging)
 #       Almacenamiento: 15904 (49%) / 32,256 bytes
