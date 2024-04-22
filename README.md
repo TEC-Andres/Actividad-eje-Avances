@@ -25,7 +25,7 @@ El plano en sí no es tan complicado, solo son varias conexiónes aprovechando a
 ![prototipo (2)_page-0001](https://github.com/TEC-Andres/Actividad-eje-Avances/assets/141695629/9d84253d-5c20-4bf0-bea2-4fc0deb38c38)
 
 ### Plano (En Vista de Tinkercad)
-![Captura de pantalla 2024-04-22 125333](https://github.com/TEC-Andres/Actividad-eje-Avances/assets/141695629/38ea93b1-2fd4-4b5c-b68b-dbe6d8f1eb9d)
+![Captura de pantalla 2024-04-22 125429](https://github.com/TEC-Andres/Actividad-eje-Avances/assets/141695629/98d04437-b182-48eb-8879-8c35c189f986)
 
 ## Funciones interesantes 
 En el código, se encuentran algunos pedazos de código que son de ardua importancia para el funcionamiento del software, entre estas funciones esta la función `crearCaracter`, que toma cuatro argumentos como base. El primero es de tipo byte con un puntero haciendo conexión los paquetes de caracteres especiales, mientras que el resto de los argumentos son integros positivos de 8 bits (es decir numeros entre el 0 al 256)
