@@ -4,7 +4,7 @@
 #
 #       Copyright (C) Tecnologico de Monterrey
 #
-#       Archivo: OS.cpp
+#       Archivo: DUO.cpp
 #
 #       Datos del programa (Sin contar la consola de debugging)
 #       Almacenamiento: 15904 (49%) / 32,256 bytes
