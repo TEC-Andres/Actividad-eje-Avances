@@ -21,10 +21,11 @@ Este repositorio es para la actividad eje de Daniela Mendez Rivas y Andrés Rodr
 El plano en sí no es tan complicado, solo son varias conexiónes aprovechando al máximo la cantidad de PINS que contiene un arduino.
 
 ### Plano (En Vista esquematica)
-![prototipo](https://github.com/TEC-Andres/Actividad-eje-Avances/assets/141695629/4b8c30dd-e2f3-4f12-8f12-56bdad3dddd0)
+![prototipo (2)_page-0001](https://github.com/TEC-Andres/Actividad-eje-Avances/assets/141695629/9d84253d-5c20-4bf0-bea2-4fc0deb38c38)
 
 ### Plano (En Vista de Tinkercad)
-![image](https://github.com/TEC-Andres/Actividad-eje-Avances/assets/141695629/07c5c235-6fa0-4cd6-b226-2e32c41057fa)
+![Captura de pantalla 2024-04-22 110205](https://github.com/TEC-Andres/Actividad-eje-Avances/assets/141695629/2914b8ba-d7d7-4a3d-8a6d-668562b9b5c7)
+
 
 ## Funciones interesantes 
 En el código, se encuentran algunos pedazos de código que son de ardua importancia para el funcionamiento del software, entre estas funciones esta la función `crearCaracter`, que toma cuatro argumentos como base. El primero es de tipo byte con un puntero haciendo conexión los paquetes de caracteres especiales, mientras que el resto de los argumentos son integros positivos de 8 bits (es decir numeros entre el 0 al 256)
