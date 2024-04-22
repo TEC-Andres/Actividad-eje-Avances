@@ -5,18 +5,19 @@ Este repositorio es para la actividad eje de Daniela Mendez Rivas y Andrés Rodr
 ### Componentes
 
 | Nombre   | Componente    | Cantidad |
-U1 |	1 |	Arduino Uno R3
-U2 |	1	| PCF8574-based, 39 (0x27) LCD 16 x 2 (I2C)
-Rpot1	| 1	| 250 kΩ Potentiometer
-R2, R4, R6, R8, R9 |	5 |	1 kΩ Resistor
-PIEZO1 |	1	| Piezo
-U3	| 1	| Temperature Sensor [TMP36]
-SERVO1	| 1 |	Positional Micro Servo
-R1 |	1 |	Photoresistor
-BAT1 |	1 |	9V Battery
-D1 |	1	| Green LED
-S1 |	1 |	Pushbutton
-U4 |	1	| IR sensor
+| --- | ----------- | --------------- |
+| U1 |	1 |	Arduino Uno R3 |
+| U2 |	1	| PCF8574-based, 39 (0x27) LCD 16 x 2 (I2C) |
+| Rpot1	| 1	| 250 kΩ Potentiometer |
+| R2, R4, R6, R8, R9 |	5 |	1 kΩ Resistor |
+| PIEZO1 |	1	| Piezo |
+| U3	| 1	| Temperature Sensor [TMP36] |
+| SERVO1	| 1 |	Positional Micro Servo |
+| R1 |	1 |	Photoresistor |
+| BAT1 |	1 |	9V Battery |
+| D1 |	1	| Green LED |
+| S1 |	1 |	Pushbutton |
+| U4 |	1	| IR sensor |
 
 El plano en sí no es tan complicado, solo son varias conexiónes aprovechando al máximo la cantidad de PINS que contiene un arduino.
 
